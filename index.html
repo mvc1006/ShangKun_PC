@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>山东尚昆富硒农业有限公司</title>
+    <link rel="icon" href="./static/100.jpg">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/animate.min.css">
+    <link rel="stylesheet" href="./css/swiper-4.3.3.min.css">
+    <link rel="stylesheet" href="./css/PublicHF.css">
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/swiper-4.3.3.min.js"></script>
+    <script src="./js/swiper.animate1.0.3.min.js"></script>
+    
+<style>
+
+    
+    
+    /* banner */
+    .swiper-container{
+        width: 100%;
+        min-width: 1180px;
+        height: 550px;
+        /* background: darkcyan; */
+    }
+    .swiper-slide{
+        width: 100%;
+        /* min-width: 1100px; */
+        height: 550px;
+        /* background: darkgoldenrod; */
+        margin: 0 auto;
+    }
+    .swiper-slide>img{
+        width: 100%;
+        /* display: block;
+        margin: 0 auto; */
+        height: 550px;
+         /* height: 100%; */
+        
+    }
+
+
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="header">
+            <img src="./static/logo.png" alt="">
+            <ul>
+                <li> <a href="#" style="color:#66CC99;">首页</a> </li>
+                <li> <a href="./productInfo.html">产品介绍</a> </li>
+                <li> <a href="#">硒科普</a> </li>
+                <li> <a href="#">关于我们</a> </li>
+                <li> <a href="#">联系我们</a> </li>
+            </ul>
+        </div>
+
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="./static/banner1.jpg" alt="">
+                </div>
+            
+                <div class="swiper-slide">
+                    <img src="./static/banner2.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./static/banner3.jpg" alt="">
+                </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+        
+        <div class="footer">
+            <div class="content">
+                <div class="left">
+                    <ul>
+                        <li>关于我们</li>
+                        <li> <a href="#">关于尚昆</a></li>
+                        <li> <a href="#">基地和生产</a></li>
+                        <li> <a href="#">荣誉证书</a></li>
+                    </ul>
+                    <ul>
+                        <li>产品展示</li>
+                        <li> <a href="#">蒂卡西系列</a></li>
+                        <li> <a href="#">富硒礼品</a></li>
+                    </ul>
+                    <ul>
+                        <li>硒科普</li>
+                        <li> <a href="#">功能“硒”知识</a></li>              
+                    </ul>
+                    <ul>
+                        <li>联系我们</li>
+                        <li> <a href="#">联系地址</a></li>    
+                        <li> <a href="#">新闻资讯</a></li>              
+                    </ul>
+                </div>
+                <div class="right">
+                    <img src="./static/300.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            Copyright © 2019 山东尚昆富硒农业有限公司 版权所有 &nbsp 主营：农作物种植；食品、使用农产品加工、销售及技术开发、技术转让、技术咨询；批发、零售日用品、电子产品等
+        </div>
+    </div>
+</body>
+</html>
+<!-- <script src="https://www.swiper.com.cn/templets/default/js/TweenMax.min.js"></script> -->
+<script>
+     var swiper = new Swiper('.swiper-container', {
+      loop:true,
+
+      centeredSlides: true,
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+    </script>
